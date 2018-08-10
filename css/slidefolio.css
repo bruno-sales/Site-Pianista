@@ -397,7 +397,7 @@ img.placeholder {
     font-size: 30px;
 }
 .overlay:hover i, .overlay:hover span.title {
-    top: 10px;
+    top: 0px;
 }
 
 span.valign {
