@@ -21,33 +21,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
 	
 }
 
-#backg{
-	background: url(./../img/clavew2background50.png);
-	background-repeat:repeat;
-	background-size: contain;
-	background-position:top;
-}
-#backno{
-	background: none;
-}
-
-#logoimg{
-  
-  max-width:350px;
-  width: auto;
-  height: auto;
-}
-
-#treble1{
-	
-	max-height:50px;
-	
-	width:auto;
-	height:auto;
-	padding-left: 10px;
-}
-
-
 .push50{
 margin-top:50px;
 }
