@@ -1,3 +1,14 @@
+
+/*
+  Set slideshow image as body cover
+  body{
+    background-image: url("../img/dawn.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 .sub-page-header{
   display: table;
   height: 30%;
@@ -68,7 +79,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
   max-width:350px;
   max-height:250px;
   width: 60%;
-  height: 60%;
 }
 
 #treble1{
@@ -79,3 +89,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
   height:auto;
   padding-left: 10px;
 }
+
+#index-slider
+{
+  background: #333333;
+  width: 100%;
+  padding-top: 2px;
+}
+ 

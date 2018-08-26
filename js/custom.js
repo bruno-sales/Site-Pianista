@@ -1,12 +1,12 @@
 //Slideshow configuration
 $.vegas('slideshow', {
-  delay:5000,
+  delay:9000000000,
   backgrounds:[
-   { src:'./img/dawn.jpg', fade:2000 },
-   { src:'./img/nature.jpg', fade:2000 },
+   { src:'./img/dawn.jpg', fade:0 }//,
+   /*{ src:'./img/nature.jpg', fade:2000 },
    { src:'./img/nature1.jpg', fade:2000 },
    { src:'./img/forest.jpg', fade:2000 },
-   { src:'./img/anime-piano.jpg', fade:2000 }    
+   { src:'./img/anime-piano.jpg', fade:2000 }    */
   ]
 }); 
 
