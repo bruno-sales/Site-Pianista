@@ -37,3 +37,13 @@ $.vegas('slideshow', {
 $(document).ready(function() {
         $('#nav').scrollToFixed();
   });
+
+//Slideshow
+jQuery(function(){
+      
+      jQuery('#camera_wrap').camera({
+        thumbnails: true,
+        height: '420px',
+      }); 
+      
+    });

@@ -7,100 +7,100 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+    } */
 
-.sub-page-header{
-  display: table;
-  height: 30%;
-  width: 100%;
-  position: relative;
-}
+    .sub-page-header{
+      display: table;
+      height: 30%;
+      width: 100%;
+      position: relative;
+    }
 
-.grey-title{
-	color: #333333
-}
+    .grey-title{
+     color: #333333
+   }
 
-.title-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #333333;
-}
+   .title-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #333333;
+  }
 
-.project-image{
-	width:60%;
-	height:60%;
-	border:1px solid #ffffff;
-}
+  .project-image{
+   width:60%;
+   height:60%;
+   border:1px solid #ffffff;
+ }
  
-.projects {
+ .projects {
    background: none repeat scroll 0 0 #f1f1f1;
-  padding: 50px 0;
-  color: #eeeeee;
-  width: 100%;
-  border-bottom:1px solid #D1D1D1 !important;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
-  *zoom: 1;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-}
+   padding: 50px 0;
+   color: #eeeeee;
+   width: 100%;
+   border-bottom:1px solid #D1D1D1 !important;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+   *zoom: 1;
+   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+ }
 
-.projects a {
+ .projects a {
   color:inherit;
   text-decoration: none;
- }
+}
 
 .project-item {
   margin-bottom: 15px;
   background:#333333;
   padding:10px;
   border:1px solid #D1D1D1 !important;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
- 
+
 #backg{
   background: url(./../img/clavew2background50.png);
   background-repeat:repeat;
   background-size: contain;
   background-position:top;
 }
+
 #backno{
   background: none;
 }
 
 #logoimg{
-  
   max-width:350px;
   max-height:250px;
   width: 60%;
 }
 
 #sub-pages-logoimg{
-  
   max-width:210px;
   max-height:150px;
   width: 60%;
 }
 
 #treble1{
-  
   max-height:50px;
-  
   width:auto;
   height:auto;
   padding-left: 10px;
 }
 
-#index-slider
-{
+#index-slider{
   background: #333333;
   width: 100%;
   padding-top: 2px;
 }
- 
+
+.yt-videos{  
+  width: 100%;
+  min-height: : 400px;
+}
