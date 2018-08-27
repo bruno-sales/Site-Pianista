@@ -81,6 +81,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
   width: 60%;
 }
 
+#sub-pages-logoimg{
+  
+  max-width:210px;
+  max-height:150px;
+  width: 60%;
+}
+
 #treble1{
   
   max-height:50px;
