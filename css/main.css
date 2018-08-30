@@ -98,6 +98,10 @@
   background: #333333;
   width: 100%;
   padding-top: 2px;
+} 
+
+#news-feed img{  
+  padding-left: 40px; 
 }
 
 .frameWrapper {
