@@ -88,7 +88,8 @@ margin-bottom:-20px;
 }
 .navbar {
 border-radius:0px !important;
-	
+font-size: 18px;
+font-family: Calibri, sans-serif
 }
 .navbar-new {
   background-color: rgba(0, 0, 0, 0.6);
