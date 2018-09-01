@@ -63,6 +63,11 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
+#donateimg{
+  max-height: 250px;
+  max-width: 250px;
+}
+
 
 #backg{
   background: url(./../img/clavew2background50.png);
