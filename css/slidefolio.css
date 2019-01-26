@@ -368,7 +368,7 @@ img.placeholder {
     transition: all 0.3s ease 0s;
 }
 .overlay span.title {
-    font-size: 30px;
+    font-size: 20px;
 }
 .overlay:hover i, .overlay:hover span.title {
     top: 0px;
@@ -376,7 +376,7 @@ img.placeholder {
 
 span.valign {
     display: inline-block;
-    height: 100%;
+    /*height: 100%;*/
     vertical-align: middle;
 }
 
