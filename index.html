@@ -78,44 +78,6 @@
 <!-- /Navigation -->
 </div>
 
-   <!-- Slideshow 
-   <div id="index-slider" class="index-slider">
-    <div class="slider-container">
-      <div class="rows">      
-        <div class="camera_wrap camera_ash_skin col-xl-12" id="camera_wrap">
-            <div data-thumb="img/slider/thumbs/1.jpg" data-src="img/slider/1.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    <strong>Foto 1</strong>&nbsp;&nbsp; - &nbsp; Título 1.
-                </div>
-            </div>
-            <div data-thumb="img/slider/thumbs/2.jpg" data-src="img/slider/2.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    <strong>Foto 2</strong>&nbsp;&nbsp; - &nbsp; Título 2.
-                </div>
-            </div>
-            <div data-thumb="img/slider/thumbs/3.jpg" data-src="img/slider/3.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    <strong>Foto 3</strong>&nbsp;&nbsp; - &nbsp; Título 3.
-                </div>
-            </div>
-            <div data-thumb="img/slider/thumbs/4.jpg" data-src="img/slider/4.jpg">
-                <div class="camera_caption fadeFromBottom">
-                    <strong>Foto 4</strong>&nbsp;&nbsp; - &nbsp; Título 4.
-                </div>
-            </div>
-            <div data-thumb="img/slider/thumbs/5.jpg" data-src="img/slider/5.jpg">
-                <div class="camera_caption fadeFromBottom">                    
-                    <strong>Foto 5</strong>&nbsp;&nbsp; - &nbsp; Título 5.
-                </div>
-            </div> 
-           
-        </div>
- 
-      </div>
-    </div>
-  </div>
-   /Slideshow -->
-
 <div id="services" class="services" style="padding-top: 10px;">
     <div class="container">
       <div class="row">
@@ -172,15 +134,124 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12  text-center">  
-        <div id="news-feed">
-           <img src="img/fbfeed1.jpg" class="img-rounded"/> 
-           <img src="img/fbfeed2.jpg" class="img-rounded"/>
-           <img src="img/fbfeed3.jpg" class="img-rounded"/> 
+
+      <div class="gallery">
+
+        <ul id="Grid" class="gcontainer">
+          <li class="col-md-3 col-sm-3 col-xs-12 mix nuc" data-cat="nuc">
+            <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
+              <img class="horizontal img-rounded" src="img/noticias/Museu dos Bombeiros-alt.jpg" alt="Visita a Museu">
+              <span class="overlay"><span class="valign"></span><span class="title">Visita a Museu</span></span>
+            </a>                
+          </li>
+          <li class="col-md-3 col-sm-3 col-xs-3 mix pass" data-cat="pass">
+            <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
+              <img class="vertical img-rounded" src="img/noticias/Alunos Bernardo e Mateus-alt.jpg" alt="Jovens talentos">
+              <span class="overlay"><span class="valign"></span><span class="title">Jovens Talentos</span></span>
+            </a>                
+          </li>
+          <li class="col-md-3 col-sm-3 col-xs-12 mix eve" data-cat="eve">
+            <a data-toggle="modal" data-target="#portrait3" class="mix-cover">
+              <img class="horizontal img-rounded" src="img/noticias/Atelier de Yoga-alt.jpg" alt="Ioga em Francês">
+              <span class="overlay"><span class="valign"></span><span class="title">Ioga em Francês</span></span>
+            </a>
+          </li>
+          <li class="col-md-3 col-sm-3 col-xs-12 mix nuc" data-cat="nuc">
+            <a data-toggle="modal" data-target="#portrait4" class="mix-cover">
+              <img class="horizontal img-rounded" src="img/noticias/Semana da Franca 1-alt.jpg" alt="ARC realiza evento internacional">
+              <span class="overlay"><span class="valign"></span><span class="title">ARC realiza evento internacional</span></span>
+            </a>
+          </li>
+
+        </ul>   
+
+        <!-- Load Photo in Modal -->        
+        <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content"  style="color:#000">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title text-center">Cultura e conhecimento durante visita a Museu</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  O Projeto Pianista do Amanhã levou seus alunos para conhecerem o Museu Histórico do Corpo de Bombeiros Militar do Estado do Rio de Janeiro (CBMERJ), no dia 23 de janeiro de 2019. Ao todo, doze alunos e cinco adultos do Núcleo Comunidade Divino Espírito Santo fizeram uma visita guiada no Museu Histórico, assistiram ao ensaio da Banda Sinfônica do Corpo de Bombeiros, realizado na Sala Maestro Anacleto de Medeiros, responsável pela criação da Banda Sinfônica dos Bombeiros e ainda deram uma volta pelo pátio no Caminhão de Incêndio.
+                  </p>
+                  <p>O Museu Histórico do Corpo de Bombeiros Militar do Estado do Rio de Janeiro fica na Praça da República, 45, Centro do Rio de Janeiro. 
+                  Confira as fotos!
+                </p>
+               <img class="thumbnail" src="img/noticias/Museu dos Bombeiros.jpeg"/>
+             </div>
+           </div><!-- /.modal-content -->
+         </div><!-- /.modal-dialog -->
+       </div><!-- /.modal -->
+
+       <div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content"  style="color:#000">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title text-center">Projeto já coleciona jovens talentos</h4>
+            </div>
+            <div class="modal-body">
+              <img class="thumbnail" src="img/noticias/Alunos Bernardo e Mateus.jpg" style="float:left; margin-right: 20px;" />
+              <p><b>O Projeto Pianista do Amanhã</b> tem como objetivo transformar a vida de crianças e jovens através de ações culturais e educativas. Ensinar a tocar piano é sua principal atividade. Dentre os parceiros, o Jockey Club Brasileiro abriu as portas da Escola Jockey para o projeto Pianista do Amanhã, que iniciado em março de 2016, começou a render bons frutos.</p>
+
+              <p><b>Os alunos</b> Bernardo Barreto e Mateus Paiva, respectivamente com 15 e 11 anos, já se destacam pela habilidade ao piano. Em dezembro de 2018, ambos tiveram grande êxito nas duas apresentações que fizeram, uma na Associação de Canto Coral, no dia 01 de dezembro, e outra no Teatro XP Investimentos, no dia 17 de dezembro.</p>
+               
+              <p><b>Bernardo Barreto</b> começou no projeto há dois anos, por indicação de um amigo. “Sempre admirei o piano por ser um instrumento diferente e difícil de tocar (pela quantidade de teclas e pela ambidesteridade), mas nunca tinha tido a oportunidade de aprender”, conta o aluno, que gosta muito da qualidade e do nível das aulas, dos passeios culturais, das apresentações e da enorme dedicação que os professores têm com o projeto. Bernardo deseja se tornar um agente da Polícia Rodoviária Federal e sabe que para isso precisa ser aplicado aos estudos e obter bons resultados nas aulas. A concentração, a memória e a habilidade ao piano são notáveis em suas apresentações em público.</p>
+
+              <p><b>Mateus Paiva</b>, com 11 anos, começou no Projeto há dois anos para aprender um instrumento, pois já cantou no coral e aprendeu flauta doce com a professora de música da Escola Jockey. Mateus é dedicado e muito aplicado, deseja ser médico quando crescer. 
+              Quando questionado sobre o que mais gosta no Projeto Pianista do Amanhã respondeu: “Gosto muito das aulas e dos passeios que são organizados”. </p>
+
+              <p><b>O pianista Rodrigo Couras</b> se dedica a este projeto há quatro anos, desde 2015, quando voltou da França, e pretende continuar investindo na formação de futuros cidadãos de bem. Os alunos do projeto também são contemplados com aulas de Francês e de Inglês. Rodrigo Couras acredita que através da cultura e da educação será possível transformar vidas, revelar talentos e contribuir para uma sociedade mais humana e justa. </p>
+           </div>
+         </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+     </div><!-- /.modal -->
+
+     <div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content"  style="color:#000">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title text-center">Aula de Ioga em Francês</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              "Une Volonté Perseverante Surmonte Tous Les Obstacles" (A vontade persistente supera todos os obstáculos) foi o tema da aula de Ioga ministrada para os alunos do Projeto Pianista do Amanha, no dia 24 de julho de 2018, na Casa de Artes e Culturas Percilia Teles da Silva. Os alunos entenderam o conteudo da aula da professora francesa Pauline Requier, graças as aulas de frânces no Projeto.
+            </p>
+           <img class="thumbnail" src="img/noticias/Atelier de Yoga.jpeg"/>
          </div>
-      </div>       
-    </div>
-  </div>
+       </div><!-- /.modal-content -->
+     </div><!-- /.modal-dialog -->
+   </div><!-- /.modal -->
+
+   <div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content"  style="color:#000">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title text-center">ARC realiza evento internacional</h4>
+        </div>
+        <div class="modal-body">
+            <img class="thumbnail" src="img/noticias/Semana da Franca 1.jpg" style="float:left; margin-right: 20px;" />
+          <p>
+              <b>A Semana da França</b> foi o primeiro grande evento realizado pelo Projeto Pianista do Amanhã com aulas todas em frances para os alunos e moradores da comunidade Divino Espirito Santo, na Praça Seca. Dança, desenho e o idioma francês foram as matérias ministradas no periodo de 01 a 08 de julho de 2017, pela professora Inès Kermaïdic.</p>
+
+            <p><b>Inès Kermaïdic</b>, dançarina e estudante do segundo ano da ESAG Penninghen (Escola Superior de Arte Gráfica e Arquitetura) procurou a ARC, Associação Rodrigo Couras de Incentivo à Cultura, para realizar trabalho voluntário no período em que esteve no Brasil. Rodrigo Couras, presidente da ARC, auxiliou na traduçao das aulas, quando necessário.</p>
+
+            <p>Ao final do evento foi comemorou-se a fundação da ARC, Associação Rodrigo Couras de Incentivo à Cultura, e a inauguração da Casa de Artes e Culturas Percília Teles da Silva.</p> 
+         <img class="thumbnail" src="img/noticias/Semana da Franca 2.jpg"/>
+       </div>
+     </div><!-- /.modal-content -->
+   </div><!-- /.modal-dialog -->
+ </div><!-- /.modal -->
+
+
+<!-- /Load Photo in Modal --> 
+</div>  
+</div>
 </div>
 <!-- /Events -->
  
