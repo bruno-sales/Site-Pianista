@@ -51,13 +51,12 @@
      </div>
 
      <div class="collapse navbar-collapse" id="mobilemenu"  >
-
-       <ul class="nav navbar-nav navbar-right text-center"  >
-         <li><a href="index.html"><em class="service-icon fa fa-home"></em> Home</a></li>
-         <li><a href="projects.html"><i class="service-icon fa fa-music"></i>&nbsp;Projetos</a></li>
-         <li><a href="galery.html"><i class="service-icon fa fa-camera"></i>&nbsp;Galeria</a></li>
-         <li><a href="crew.html"><i class="service-icon fa fa-group"></i>&nbsp;Equipe</a></li> 
-         <li><a href="#top"><i class="service-icon fa fa-heart"></i>&nbsp;Envolva-se </a></li>  
+       <ul class="nav navbar-nav navbar-right text-center"  >         
+        <li><a href="index.html"><i class="service-icon fa fa-home"></i>&nbsp;<span translate>Home</span></a></li>
+        <li><a href="projects.html"><i class="service-icon fa fa-music"></i>&nbsp;<span translate>Projetos</span></a></li>
+        <li><a href="galery.html"><i class="service-icon fa fa-camera"></i>&nbsp;<span translate>Galeria</span></a></li>
+        <li><a href="crew.html"><i class="service-icon fa fa-group"></i>&nbsp;<span translate>Equipe</span></a></li> 
+        <li><a href="#top"><i class="service-icon fa fa-heart"></i>&nbsp;<span translate>Envolva-se</span></a></li> 
        </ul>
      </div><!-- /.navbar-collapse -->
    </div>
@@ -70,11 +69,10 @@
   <div class="container">        
     <div class="row">
         <div class="col-md-6 col-md-offset-1">
-          <h2>Seja um Parceiro</h2> 
-          <p class="lead">Ser Nosso Parceiro é nos conhecer e acreditar que juntos podemos fazer mais!<br>
-          Se chegamos até aqui é porque somos uma equipe.<br>
-          Venha nos conhecer.<br>
-          Escreva-nos: <a href="mailto:contato@pianistadoamanha.org">contato@pianistadoamanha.org</a><br>
+          <h2 translate>Projeto Pianista do Amanhã</h2> 
+          <p class="lead"> <span translate="partner-description">Desde 2015 levamos cultura e cidadania por acreditarmos que podemos transformar vidas!<br>          
+          Venha nos conhecer!<br>
+          Escreva-nos:</span> <a href="mailto:contato@pianistadoamanha.org">contato@pianistadoamanha.org</a><br>
           
           </p>
         </div>
@@ -85,18 +83,20 @@
 
       <div class="row" >
           <div class="col-md-4 col-md-offset-4 text-center">
-            <h2 class="grey-title">Doações</h2>
+            <h2 class="grey-title" translate>Doações</h2>
             <hr class="title-hr">
           </div>
         </div> 
         <div class="row services"> 
           <div class="col-md-3 col-md-offset-3 text-center">
-          <div class="project-item" stye="color:#FFF;"> 
+          <div class="project-item" stye="color:#FFF;" > 
+            <span translate="donation-description">
             <h3>Depósito Bancário</h3>
-           <p> Titular: ASSOCIAÇÃO RODRIGO COURAS DE INCENTIVO À CULTURA <br>
-          Banco: Bradesco<br>
-          Conta: 15756-2<br>
-          Agência: 0473<br> </p>
+            <p> Titular: ASSOCIAÇÃO RODRIGO COURAS DE INCENTIVO À CULTURA <br>
+            Banco: Bradesco<br>
+            Conta: 15756-2<br>
+            Agência: 0473<br> </p>
+          </span>
           </div>
         </div>
         <div class="col-md-3 text-center">
@@ -125,7 +125,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-md-offset-4 text-center">
-        <h2>Redes Sociais</h2>          
+        <h2 translate>Redes Sociais</h2>          
         <hr>          
       </div>
     </div>
@@ -167,12 +167,13 @@
 </div>
 <!-- /Social -->
 
-<!-- Contact -->
+
+  <!-- Contact -->
   <div id="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
-          <h2>Fale Conosco</h2>
+          <h2 translate>Fale Conosco</h2>
           <hr>
         </div>
         <div class="col-md-5 col-md-offset-3">
@@ -180,31 +181,31 @@
           <form action="contact" id="contact-form" class="form-horizontal">
             <fieldset>
               <div class="form-group">
-                <label class="col-sm-4 control-label" for="name">Seu Nome</label>
+                <label class="col-sm-4 control-label" for="name" translate>Seu Nome</label>
                 <div class="col-sm-8">
-                  <input type="text"  placeholder="Seu Nome" class="form-control" name="name" id="name">
+                  <input type="text"  placeholder="Seu Nome" placeholder-key="ph-nome" class="form-control" name="name" id="name">
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-sm-4 control-label" for="email">E-mail</label>
+                <label class="col-sm-4 control-label" for="email" translate>E-mail</label>
                 <div class="col-sm-8">
-                  <input type="text" placeholder="Informe seu e-mail" class="form-control" name="email" id="email">
+                  <input type="text" placeholder="Informe seu e-mail" placeholder-key="ph-email" class="form-control" name="email" id="email">
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-sm-4 control-label" for="subject">Assunto</label>
+                <label class="col-sm-4 control-label" for="subject" translate>Assunto</label>
                 <div class="col-sm-8">
-                  <input type="text" placeholder="Assunto" class="form-control" name="subject" id="subject">
+                  <input type="text" placeholder="Assunto" placeholder-key="ph-assunto" class="form-control" name="subject" id="subject">
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-sm-4 control-label" for="message">Sua Mensagem</label>
+                <label class="col-sm-4 control-label" for="message" translate>Sua Mensagem</label>
                 <div class="col-sm-8">
-                  <textarea placeholder="Diga sua mensagem" class="form-control" name="message" id="message" rows="3"></textarea>
+                  <textarea placeholder="Diga sua mensagem" placeholder-key="ph-mensagem" class="form-control" name="message" id="message" rows="3"></textarea>
                 </div>
               </div>
               <div class="col-sm-offset-4 col-sm-8">
-                <button type="submit" class="btn btn-success">Enviar</button> 
+                <button type="submit" class="btn btn-success" translate>Enviar</button> 
               </div>
             </fieldset>
           </form>
@@ -226,12 +227,12 @@
        <a href="https://www.youtube.com/user/MrRcourasm" title="Youtube" target="_blank"><i class="service-icon fa fa-youtube fa-2x"></i></a>
      </div>
      <div class="col-md-4 text-center">
-       Pianista do Amanhã © 2016-2019
+      Pianista do Amanhã © 2016-2023
      </div> 
      <div class="col-md-4 text-center">
-       <a href="involve.html"><img src="img/flag-br.png"/></a>
-       <a href="involve-Fr.html"><img src="img/flag-fr.png"/></a>
-       <a href="involve-En.html"><img src="img/flag-us.png"/></a>
+      <a href="." onclick="setLanguage('pt_br');"><img src="img/flag-br.png"/></a>
+      <a href="." onclick="setLanguage('fr_fr');"><img src="img/flag-fr.png"/></a>
+      <a href="." onclick="setLanguage('en_us');"><img src="img/flag-us.png"/></a>
      </div> 
    </div>
  </div>
@@ -254,6 +255,8 @@
 <script type='text/javascript' src='js/slider/camera.min1.js'></script> 
 <!-- Slideshow Background  -->
 
+ <!-- Localization  -->
+ <script src="js/translation.js"></script>
 
 </body>
 
